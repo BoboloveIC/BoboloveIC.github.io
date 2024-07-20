@@ -1,22 +1,30 @@
-Hello, there! I am Bobo!
+Hello, there! I am Bobo! I really expected to write down something here. If you like computer programming language, DIY things, or psychology things, we can stick together and step ahead if you like!
 
 ### My Recent Articles
 
 ### **My Recent Interesting**
 
-- Psychology
-- Computer Programming
-- DIY
+- ⭐️Psychology
+
+	It’s really hard to understand people. Personally, starting from the brain giving us more pictures.
+
+- ⭐️Computer Programming
+
+	Since I was 19 years old, I learn the computer stuff, from power on/off, to switches in computer programming language. It gives me more insights of this wide field.
+
+- ⭐️DIY
+
+	When the AI become a part of our life, it is great that we try something meaningful and do it by ourselves .
 
 ### **About Me**
 
-- Age : **DO NOT ASK A PERSON'S AGE!** But I am above 40
+- 🤔Age : **DO NOT ASK A PERSON'S AGE!** But I am above 40
 
 - Tools Skills: Xcode, QT, Android Development Kit
 
-- Computer Language Skills : C, C++, Objective C, Java, Python, PHP, ASM
+- 👨🏽‍💻Computer Language Skills : C, C++, Objective C, Java, Python, PHP, ASM
 
-- School : 
+- 🌱chool : 
 
 	- Master, Master Of Administration, Si Chuan Normal University
 	- Master, Applied Psychology, Chengdu Medical College
@@ -25,7 +33,7 @@ Hello, there! I am Bobo!
 
 ### **Q/A**
 
-#### 1. How long I have been a developer?
+#### 1. How long have I been a developer?
 
 A: Long enough to be a senior senior developer. :-)
 

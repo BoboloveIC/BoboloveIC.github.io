@@ -6,7 +6,9 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 
 - ⭐️Psychology
 
-	It’s really hard to understand people. Personally, starting from the brain giving us more pictures.
+	It’s really hard to understand people. Personally, starting from the brain gives us more pictures.
+
+	![](refs_pic/README/OIP-C.jpg)
 
 - ⭐️Computer Programming
 
@@ -24,7 +26,7 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 
 - 👨🏽‍💻Computer Language Skills : C, C++, Objective C, Java, Python, PHP, ASM
 
-- 🌱chool : 
+- 🌱School : 
 
 	- Master, Master Of Administration, Si Chuan Normal University
 	- Master, Applied Psychology, Chengdu Medical College

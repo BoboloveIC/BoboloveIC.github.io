@@ -1,8 +1,16 @@
-Hello,I am Bobo!
+Hello, there! I am Bobo!
 
-**About Me**
+### My Recent Articles
 
-- Age : above 40
+### **My Recent Interesting**
+
+- Psychology
+- Computer Programming
+- DIY
+
+### **About Me**
+
+- Age : **DO NOT ASK A PERSON'S AGE!** But I am above 40
 
 - Tools Skills: Xcode, QT, Android Development Kit
 
@@ -14,4 +22,16 @@ Hello,I am Bobo!
 	- Master, Applied Psychology, Chengdu Medical College
 	- Undergraduate, University of Electronic Science and Technology of China
 
-	
+
+### **Q/A**
+
+#### 1. How long I have been a developer?
+
+A: Long enough to be a senior senior developer. :-)
+
+
+
+#### 2. Do you really love computer languages?
+
+A: Yes, I do. Let’s not just surf on the surface, try deeper.
+

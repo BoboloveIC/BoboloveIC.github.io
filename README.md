@@ -2,7 +2,7 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 
 ### My Recent Articles
 
-### **My Recent Interesting**
+### My Recent Interests
 
 - ⭐️Psychology
 

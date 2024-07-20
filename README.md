@@ -6,7 +6,7 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 
 
 
-### My Recent Interests
+### My Interests
 
 - ⭐️Psychology
 
@@ -21,6 +21,10 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 - ⭐️DIY
 
 	When the AI become a part of our life, it is great that we try something meaningful and do it by ourselves .
+
+- ⭐️Management
+
+	Managing things, managing people. Whatever resources you have are possible to be managed by people.
 
 ### **About Me**
 

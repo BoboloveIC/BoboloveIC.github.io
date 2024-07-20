@@ -2,6 +2,10 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 
 ### My Recent Articles
 
+[1]: 10.19738/j.cnki.psy.2024.04.070	"Cyber-Meditation’s Progress In Application"
+
+
+
 ### My Recent Interests
 
 - ⭐️Psychology

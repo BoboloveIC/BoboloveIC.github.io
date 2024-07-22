@@ -4,7 +4,7 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 
 #### 1. EEG data processing
 
-- Preprocessing [EEG]([./EEG.md])
+- Preprocessing [EEG](EEG.md#Preprocessing)
 
 
 

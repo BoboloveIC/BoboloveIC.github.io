@@ -1,8 +1,14 @@
 Hello, there! I am Bobo! I really expected to write down something here. If you like computer programming language, DIY things, or psychology things, we can stick together and step ahead if you like!
 
+### My Recent Studies
+
+#### 1. EEG data processing
+
+- Preprocessing
+
 ### My Recent Articles
 
-[1]: 10.19738/j.cnki.psy.2024.04.070	"Cyber-Meditation’s Progress In Application"
+[1] Cyber-Meditation’s Progress In Application[https://10.19738/j.cnki.psy.2024.04.070] 
 
 
 

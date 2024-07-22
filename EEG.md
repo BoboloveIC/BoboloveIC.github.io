@@ -347,3 +347,26 @@ There are few meaningful clues to extract from the information presented asides 
 
 来源：https://labeling.ucsd.edu/tutorial/labels
 
+参考：
+
+1. https://github.com/sccn/ICLabel
+2. https://labeling.ucsd.edu/tutorial/labels
+
+##### 耗时
+
+###### 1）实验1-PostMeditation：
+
+开始时间：15:39
+
+结束时间：16:20
+
+共耗时：40分钟
+
+###### 2) 实验2：PreMeditation:
+
+开始事件：16:29
+
+结束事件：17:18
+
+共耗时：约50分钟
+

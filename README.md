@@ -1,14 +1,16 @@
 Hello, there! I am Bobo! I really expected to write down something here. If you like computer programming language, DIY things, or psychology things, we can stick together and step ahead if you like!
 
-### My Recent Studies
+### 👀My Recent Studies
 
 #### 1. EEG data processing
 
-- Preprocessing
+- Preprocessing [EEG]([./EEG.md])
+
+
 
 ### My Recent Articles
 
-[1] Cyber-Meditation’s Progress In Application[https://10.19738/j.cnki.psy.2024.04.070] 
+[1] [Cyber-Meditation’s Progress In Application]([https://10.19738/j.cnki.psy.2024.04.070)
 
 
 
@@ -32,7 +34,7 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 
 	Managing things, managing people. Whatever resources you have are possible to be managed by people.
 
-### **About Me**
+### **📫About Me**
 
 - 🤔Age : **DO NOT ASK A PERSON'S AGE!** But I am above 40
 
@@ -46,6 +48,7 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 	- Master, Applied Psychology, Chengdu Medical College
 	- Undergraduate, University of Electronic Science and Technology of China
 
+  [![Python](refs_pic/README/-Python-black.svg)]()![Java](refs_pic/README/Java-orange.svg)![Jenkins](refs_pic/README/Jenkins-gray.svg)![MySQL](refs_pic/README/-MySQL-lightgray.svg)
 
 ### **Q/A**
 

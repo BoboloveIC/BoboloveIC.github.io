@@ -5,6 +5,8 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 #### 1. EEG data processing
 
 - Preprocessing [EEG](EEG.md#Preprocessing)
+- Resting-Sate EEG [Resting-State](RestingEEG.md)
+- Event-related potential[ERP](ERP.md)
 
 
 
@@ -24,7 +26,9 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 
 - ⭐️Computer Programming
 
-	Since I was 19 years old, I learn the computer stuff, from power on/off, to switches in computer programming language. It gives me more insights of this wide field.
+  Since I was 19 years old, I learn the computer stuff, from power on/off, to switches in computer programming language. It gives me more insights of this wide field.
+
+  - [AI](AI.md)
 
 - ⭐️DIY
 
@@ -67,4 +71,3 @@ A: Yes, I do. Let’s not just surf on the surface, try deeper.
 ### My up-to-date works
 
 [Up-To-Date](Current_works.md)
-

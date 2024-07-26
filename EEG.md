@@ -352,7 +352,7 @@ There are few meaningful clues to extract from the information presented asides 
 1. https://github.com/sccn/ICLabel
 2. https://labeling.ucsd.edu/tutorial/labels
 
-##### 耗时
+##### ICA初次耗时
 
 ###### 1）实验1-PostMeditation：
 
@@ -362,13 +362,18 @@ There are few meaningful clues to extract from the information presented asides 
 
 共耗时：40分钟
 
-###### 2) 实验2：PreMeditation:
+###### 2）实验2：PreMeditation:
 
-开始事件：16:29
+开始时间：16:29
 
-结束事件：17:18
+结束时间：17:18
 
 共耗时：约50分钟
 
+###### 3）实验3：全部
 
+开始时间：15:34
 
+结束时间：17:16
+
+共耗时：102分钟

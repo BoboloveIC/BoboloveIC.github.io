@@ -377,3 +377,10 @@ There are few meaningful clues to extract from the information presented asides 
 结束时间：17:16
 
 共耗时：102分钟
+
+##### 全局ICA后，脑电分布
+
+![](refs_pic/EEG/1722039073967.png)
+
+来源：MX_GXZ_100_2024-05-29_16-36-01_resampled_reref_M1_M2_excluded_hipassed_notch_lopassed_ICA.set
+

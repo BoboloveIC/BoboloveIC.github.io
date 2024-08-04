@@ -137,3 +137,11 @@ https://electronicstree.com/free-proteus-8-libraries/
 https://www.snapeda.com/proteus/
 
 https://www.theengineeringprojects.com/2020/07/proteus-libraries-of-embedded-sensors.html
+
+
+
+# 4、U盘原理图
+
+## 4.1 U盘1
+
+![](refs_pic/ICDesign/U_2024-08-04.svg)

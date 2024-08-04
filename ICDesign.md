@@ -138,10 +138,24 @@ https://www.snapeda.com/proteus/
 
 https://www.theengineeringprojects.com/2020/07/proteus-libraries-of-embedded-sensors.html
 
-
+https://resources.altium.com/cn/design-libraries
 
 # 4、U盘原理图
 
-## 4.1 U盘1
+## 4.1 USB 2.0
 
 ![](refs_pic/ICDesign/U_2024-08-04.svg)
+
+## 4.2 USB 3.0
+
+![](refs_pic/ICDesign/f6de8cc4a12c0650dfef505d953db970.png)
+
+![](refs_pic/ICDesign/6ef25a886a63147633314d63b203af52.png)
+
+## 4.3 移动硬盘
+
+![](refs_pic/ICDesign/0d716cd5b566bd23086bc5f8640f09dd.png)
+
+![1722787115126](refs_pic/ICDesign/1722787115126.png)
+
+![1722787150845](refs_pic/ICDesign/1722787150845.png)

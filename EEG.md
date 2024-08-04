@@ -384,3 +384,79 @@ There are few meaningful clues to extract from the information presented asides 
 
 来源：MX_GXZ_100_2024-05-29_16-36-01_resampled_reref_M1_M2_excluded_hipassed_notch_lopassed_ICA.set
 
+数据比较：
+
+| 通道 | 先ICA，再分段      | 先分段，再ICA(5mins) | 全局ICA(未分段)    |
+| ---- | ------------------ | -------------------- | ------------------ |
+| 1    | Other:61.9         | **Brain:100**        | Other:66.7         |
+| 2    | Other:39.7         | Other:64.2           | Other:38.8         |
+| 3    | Other:93.7         | Other:93.7           | Other:98.8         |
+| 4    | Other:61.7         | Other:36.3           | Other:95.0         |
+| 5    | Brain:88.1         | Other:73.5           | Other:62.2         |
+| 6    | **Brain:51.7**     | Other:95.2           | Other:69.1         |
+| 7    | **Brain:63.0**     | Other:94.0           | Other:75.4         |
+| 8    | **Brain:100**      | Other:96.6           | **Brain:100%**     |
+| 9    | **Brain:44.9**     | **Brain:100**        | Other:76.7         |
+| 10   | Other:82.7         | Heart:53.9           | Other:93.2         |
+| 11   | Channel Noise:47.2 | Other:92.4           | Channel Noise:45.9 |
+| 12   | Other:92.5         | Other:83.3           | Other:95.4         |
+| 13   | Other:90.4         | Other:89.6           | Other:92.0         |
+| 14   | Heart:43.9         | Other:88.3           | Heart:49.2         |
+| 15   | Other:97.1         | **Brain:99.9**       | Other:97.8         |
+| 16   | **Brain:100**      | Other:82.1           | **Brain:99.9**     |
+| 17   | **Brain:99.9**     | Other:68.6           | **Brain:99.5**     |
+| 18   | Other:84.3         | Muscle:50.7          | Other:86,4         |
+| 19   | **Brain:100**      | **Brain:99.9**       | **Brain:99.9**     |
+| 20   | **Brain:81.5**     | Other:95.5           | Other:86.2         |
+| 21   | **Brain:39.3**     | Other:72.8           | Other:65.5         |
+| 22   | **Brain:99.9**     | Other:92.3           | **Brain:99.7**     |
+| 23   | Other:87.6         | Other:59.8           | Other:90.3         |
+| 24   | Other:61.1         | **Brain:73.8**       | Other:65.6         |
+| 25   | Other:68.2         | Other:89.2           | Other:77.4         |
+| 26   | **Brain:52.9**     | Other:83.1           | **Brain:60.7**     |
+| 27   | Channel Noise:49.1 | Other:97.4           | Channel Noise:41.5 |
+| 28   | **Brain:99.6**     | Other:79.0           | **Brain:99.4**     |
+| 29   | Channel Noise:53.3 | **Brain:99.2**       | Channel Noise:56.4 |
+| 30   | **Brain:54.3**     | Other:94.6           | Other:50.1         |
+| 31   | Other:66.6         | Other:94.0           | Other:90.1         |
+| 32   | Other:94.5         | **Brain:99.6**       | Other:94.2         |
+| 33   | Other:96.4         | **Brain:59.3**       | Other:95.6         |
+| 34   | Other:75.4         | Other:95.7           | Other:78.4         |
+| 35   | Other:50.8         | Other:59.0           | Other:62.9         |
+| 36   | **Brain:63.5**     | Other:67.2           | Other:49.1         |
+| 37   | Other:62.8         | Other:68.2           | Other:64.5         |
+| 38   | Other:57.2         | Other:63.7           | Muscle:48.5        |
+| 39   | Other:80.3         | Other:72.5           | Other:86.3         |
+| 40   | Other:48.8         | **Brain:53.4**       | Other:76.3         |
+| 41   | Other:80.0         | Other:98.9           | Other:78.9         |
+| 42   | Other:74.7         | **Brain:99.4**       | Other:86.4         |
+| 43   | Other:80.7         | **Brain:99.6**       | Other:95.3         |
+| 44   | Other:78.6         | **Brain:61.5**       | Other:78.9         |
+| 45   | Other:58.2         | **Brain:87.5**       | Other:80.0         |
+| 46   | **Brain:91.1**     | Other:81.9           | Other:73.8         |
+| 47   | **Brain:29.4**     | Other:80.4           | Channel Noise:28.6 |
+| 48   | Other:78.4         | Other:98.7           | Other:83.0         |
+| 49   | **Brain:70.3**     | Other:95.2           | Other:81.0         |
+| 50   | **Brain:55.4**     | Other:79.9           | **Brain:49.0**     |
+| 51   | **Brain:90.7**     | Other:57.4           | Other:49.7         |
+| 52   | Other:81.2         | Other:98.4           | Other:70.7         |
+| 53   | Other:52.1         | Other:87.4           | Other:64.3         |
+| 54   | Other:64.6         | Other:99.2           | Other:74.5         |
+| 55   | Other:48.3         | Other:58.7           | Other:47.2         |
+| 56   | Other:83.7         | Other:77.2           | Other:83.9         |
+| 57   | Other:86.4         | Other:81.8           | Other:84.9         |
+| 58   | Other:95.5         | Other:91.4           | Other:97.8         |
+| 59   | Channel Noise:44.7 | Other:87.4           | Channel Noise:41.5 |
+
+Brain数(5mins):
+
+1）先ICA，再分段：19
+
+2）先分段，再ICA：13
+
+3）全局ICA(未分段)：8
+
+4）完全吻合：1
+
+5）前两者完全吻合：2（包含3者完全吻合）
+

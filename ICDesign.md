@@ -1,3 +1,5 @@
+# 1、常用PCB
+
 ![img](./assets/2d7347d18e0179e9d181c3256f50cd610da4ef65.png@!web-article-pic.jpg)
 
 ![img](./assets/8691c477faf37900702bb4a8ee71b3873c451034.png@1256w_764h_!web-article-pic.jpg)
@@ -90,3 +92,48 @@
 
 ![img](./assets/12ef51f88c8f6fcff6c6474af73f8079f6e7e27f.png@1256w_758h_!web-article-pic.jpg)
 
+
+
+# 2、STM32F104最小系统
+
+## 2.1 组成部分
+
+由以下几部分组成：
+（1）晶振电路
+（2）复位电路
+（3）电源电路
+（4）下载电路
+
+![1722331151978](refs_pic/ICDesign/1722331151978.png)
+
+## 2.2 电路图
+
+![1722330997277](refs_pic/ICDesign/1722330997277.png)
+
+![1722331017285](refs_pic/ICDesign/1722331017285.png)
+
+![1722331062222](refs_pic/ICDesign/1722331062222.png)
+
+![1722331074651](refs_pic/ICDesign/1722331074651.png)
+
+![1722331096771](refs_pic/ICDesign/1722331096771.png)
+
+![1722331113816](refs_pic/ICDesign/1722331113816.png)
+
+![1722331133543](refs_pic/ICDesign/1722331133543.png)
+
+![1722331260202](refs_pic/ICDesign/1722331260202.png)
+
+# 3、常用资源
+
+## 3.1 Proteus库资源
+
+https://componentsearchengine.com/
+
+https://github.com/tecsantoshkumar/Proteus_Library
+
+https://electronicstree.com/free-proteus-8-libraries/
+
+https://www.snapeda.com/proteus/
+
+https://www.theengineeringprojects.com/2020/07/proteus-libraries-of-embedded-sensors.html

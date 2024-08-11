@@ -476,3 +476,6 @@ Brain数(5mins):
 
 数据相差500+/-1;
 
+## EEG Events
+
+[EEG Events](EEG-events.md)

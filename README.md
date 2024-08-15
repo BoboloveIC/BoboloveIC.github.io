@@ -7,6 +7,7 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 - Preprocessing [EEG](EEG.md#Preprocessing)
 - Resting-Sate EEG [Resting-State](RestingEEG.md)
 - Event-related potential[ERP](ERP.md)
+- EEG events [Events](EEG-events.md)
 
 
 
@@ -32,8 +33,9 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 
 - ⭐️DIY
 
-	When the AI become a part of our life, it is great that we try something meaningful and do it by ourselves .
-	- [Basic Circuit Diagram](ICDesign.md)
+  When the AI become a part of our life, it is great that we try something meaningful and do it by ourselves .
+
+  - [Basic Circuit Diagram](ICDesign.md)
 
 - ⭐️Management
 

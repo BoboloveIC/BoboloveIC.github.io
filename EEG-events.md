@@ -89,67 +89,75 @@
 
 ### 数据处理状态
 
-| 编号       | 处理结果   | 备注                           |
-| ---------- | ---------- | ------------------------------ |
-| GB-001     | 预处理结束 |                                |
-| GB-002     | 预处理结束 |                                |
-| GB_003     | 预处理结束 | 无5分钟静息数据                |
-| gb_eeg_003 |            |                                |
-| GB_004     | 预处理结束 | 无5分钟静息数据                |
-| GB_005     | 预处理结束 | ICA后的分段尚缺                |
-| GB_006     | ——         | 数据不对，可能是其他人的数据。 |
-| GB_007     | 预处理结束 |                                |
-| GB_008     | 预处理结束 |                                |
-| GB_009     |            | 无数据                         |
-| GB_010     | 预处理结束 |                                |
-| GB_011     | 预处理结束 |                                |
-| GB_012     |            |                                |
-| GB_013     |            |                                |
-| GB_014     |            | 无数据                         |
-| GB_015     |            | 无数据                         |
-| GB_016     |            |                                |
-| GB_017     |            | 无数据                         |
-| GB_018     |            |                                |
-| GB_019     |            |                                |
-| GB_020     |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
-|            |            |                                |
+| 编号   | 处理结果   | 备注                           |
+| ------ | ---------- | ------------------------------ |
+| GB-001 | 预处理结束 |                                |
+| GB-002 | 预处理结束 |                                |
+| GB_003 | 预处理结束 | 无5分钟静息数据                |
+| GB_004 | 预处理结束 | 无5分钟静息数据                |
+| GB_005 | 预处理结束 | ICA后的分段尚缺                |
+| GB_006 | ——         | 数据不对，可能是其他人的数据。 |
+| GB_007 | 预处理结束 |                                |
+| GB_008 | 预处理结束 |                                |
+| GB_009 |            | 无数据                         |
+| GB_010 | 预处理结束 |                                |
+| GB_011 | 预处理结束 |                                |
+| GB_012 | 预处理结束 |                                |
+| GB_013 | 预处理结束 |                                |
+| GB_014 |            | 无数据                         |
+| GB_015 |            | 无数据                         |
+| GB_016 | 预处理结束 |                                |
+| GB_017 |            | 无数据                         |
+| GB_018 | 预处理结束 |                                |
+| GB_019 | 处理中     |                                |
+| GB_020 |            |                                |
+| GB_021 |            |                                |
+| GB_022 |            |                                |
+| GB_023 |            |                                |
+| GB_024 |            |                                |
+| GB_025 |            |                                |
+| GB_026 |            |                                |
+| GB_027 |            |                                |
+| GB_028 |            |                                |
+| GB_029 |            |                                |
+| GB_030 |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+|        |            |                                |
+
+### 行为数据过程
+
+| 行为      | 过程分析                                                     | 注释 |
+| --------- | ------------------------------------------------------------ | ---- |
+| 图片2图片 | Procedure[Block]:Pic2PicBF<br/>Running[Block]:TestTaskBF<br/><br/>TestAddMark1.OffsetTime:461813<br/>TestAddMark1.OnsetDelay:25<br/>TestAddMark1.OnsetTime:461513<br/><br/>TextBlank1.OffsetTime:462147<br/>TextBlank1.OnsetDelay:17<br/>TextBlank1.OnsetTime:462047<br/><br/>PicTrigger1.OffsetTime:462030<br/>PicTrigger1.OnsetDelay:17<br/>PicTrigger1.OnsetTime:461830<br/>TriggerPicsPosBF:16<br/>TrPics:res/pics/positive/016.png<br/><br/>FBSlide1.OffsetTime:465180<br/>FBSlide1.OnsetDelay:33<br/>FBSlide1.OnsetTime:462180<br/>FBSlide1.RESP:d<br/>FBSlide1.RT:0<br/>FBSlide1.RTTime:0<br/>PicSelect1:126<br/>TPicSel:res/pics/negative/532.png<br/><br/>FeedBack1.OffsetTime:468393<br/>FeedBack1.OnsetDelay:33<br/>FeedBack1.OnsetTime:465213<br/>FeedBack1.RESP:j<br/>FeedBack1.RT:3180<br/>FeedBack1.RTTime:468393 |      |
+| 图片2文字 | Procedure[Block]:Pic2TextBF<br/>Running[Block]:  TestTaskBF<br/><br/>TestAddMark1.OffsetTime(OnsetDelay):455131(30)<br/>TestAddMark1.OnsetTime:454831<br/><br/>PicTrigger1.OffsetTime(OffsetDelay):455347(0)<br/>PicTrigger1.OnsetDelay(OnsetTime)：16(455147)<br/>TrPics: res/pics/positive/758.png<br/>TriggerPicsPosBF:29<br/><br/>TextBlank1.OffsetTime(OnsetDelay):455464(17)<br/>TextBlank1.OnsetTime:455364<br/><br/>FBTextSelect1.OnsetDelay(OnsetTime):33(455497)<br/>FBTextSelect1.RESP:d<br/>FBTextSelect1.RT:352<br/>TextSelect1:23<br/>TText:舒畅<br/><br/>FeedBack1.OnsetDelay(OnsetTime):32(455881)<br/>FeedBack1.RESP:d<br/>FeedBack1.RT:2352<br/>FeedBack1.RTTime:458233 |      |
+| 文字2图片 | Procedure[Block]:Text2PicBF<br/>Running[Block]:  TestTaskBF<br/><br/>TestAddMark1.OffsetTime:458897<br/>TestAddMark1.OnsetDelay:40<br/>TestAddMark1.OnsetTime:458597<br/><br/>TextTrigger1.OffsetTime:459114<br/>TextTrigger1.OnsetDelay:17<br/>TextTrigger1.OnsetTime:458914<br/>TriggerTextNegBF:16<br/>TrText:凶狠<br/><br/>TextBlank1.OffsetTime:459230<br/>TextBlank1.OnsetDelay:16<br/>TextBlank1.OnsetTime:459130<br/><br/>PicSelect1:79<br/>TPicSel:res/pics/positive/432.png<br/>FBSlide1.OffsetTime(OnsetDelay):460473(34)<br/>FBSlide1.OnsetTime:459264<br/>FBSlide1.RESP:d<br/>FBSlide1.RT:1209<br/>FBSlide1.RTTime:460473<br/><br/>FeedBack1.OffsetTime:461161<br/>FeedBack1.OnsetDelay:41<br/>FeedBack1.OnsetTime:460514<br/>FeedBack1.RESP:d<br/>FeedBack1.RT:647<br/>FeedBack1.RTTime:461161 |      |
+| 文字2文字 | Procedure[Block]:Text2TextBF<br/>Running[Block]:TestTaskBF<br/><br/>TestAddMark1.OffsetTime:468963<br/>TestAddMark1.OnsetDelay:25<br/>TestAddMark1.OnsetTime:468663<br/><br/>TextBlank1.OffsetTime:469296<br/>TextBlank1.OnsetDelay:16<br/>TextBlank1.OnsetTime:469196<br/><br/>TriggerTextPosBF:8<br/>TrText:活泼<br/>TextTrigger1.OffsetTime:469180<br/>TextTrigger1.OnsetDelay:17<br/>TextTrigger1.OnsetTime:468980<br/><br/>FBTextSelect1.OnsetDelay:34<br/>FBTextSelect1.OnsetTime:469330<br/>FBTextSelect1.RESP:d<br/>FBTextSelect1.RT:783<br/>TextSelect1:3<br/>TText:欢乐<br/><br/>FeedBack1.OffsetTime:470713<br/>FeedBack1.OnsetDelay:33<br/>FeedBack1.OnsetTime:470146<br/>FeedBack1.RESP:d<br/>FeedBack1.RT:567<br/>FeedBack1.RTTime:470713 |      |
 
 
 
@@ -211,67 +219,75 @@ s121,s122
 
 ### 数据处理状态
 
-| 编号    | 处理情况   | 备注     |
-| ------- | ---------- | -------- |
-| gxz-001 | 预处理结束 |          |
-| gxz-002 | 预处理结束 |          |
-| gxz-003 | 分段结束   | 尚未叠加 |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
-|         |            |          |
+| 编号    | 处理情况   | 备注 |
+| ------- | ---------- | ---- |
+| gxz-001 | 预处理结束 |      |
+| gxz-002 | 预处理结束 |      |
+| gxz-003 | 预处理结束 |      |
+| gxz_004 | 预处理结束 |      |
+| gxz-005 | 预处理结束 |      |
+| gxz-006 | 预处理结束 |      |
+| gxz-007 | 预处理结束 |      |
+| gxz-008 | 预处理结束 |      |
+| gxz-009 |            |      |
+| gxz-010 | 预处理结束 |      |
+| gxz-011 | 预处理结束 |      |
+| gxz-012 | 处理中     |      |
+| gxz-013 |            |      |
+| gxz-014 |            |      |
+| gxz-015 |            |      |
+| gxz-016 |            |      |
+| gxz-017 |            |      |
+| gxz-018 |            |      |
+| gxz-019 |            |      |
+| gxz-020 |            |      |
+| gxz-021 |            |      |
+| gxz-022 |            |      |
+| gxz-023 |            |      |
+| gxz-024 |            |      |
+| gxz-025 |            |      |
+| gxz-026 |            |      |
+| gxz-027 |            |      |
+| gxz-028 |            |      |
+| gxz-029 |            |      |
+| gxz-030 |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+|         |            |      |
+
+### 行为数据过程
+
+|      |                                                              |      |
+| ---- | ------------------------------------------------------------ | ---- |
+|      | (S1、S2):有PS1,PS2<br/>Ins6.ACC:1<br/>Ins6.OnsetDelay:25<br/>Ins6.OnsetTime:4115287<br/>Ins6.OnsetToOnsetTime:0<br/>Ins6.RT:2117<br/>Ins6.RTTime:4117404<br/>Trial:1<br/>GList2:1<br/>GList2.Sample:1<br/>Procedure[Trial]:G2<br/>Running[Trial]:GList2<br/>Type0:1<br/>SubTrial:1<br/>EList2:1<br/>EList2.Sample:354<br/>EList2.Cycle:18<br/>MList2:345<br/>P1:胸骨<br/>P2:2<br/>P3:k<br/>P4:41<br/>P5:21<br/>Procedure[SubTrial]:S2<br/>PS1.ACC:0<br/>PS1.CRESP:k<br/>PS1.OnsetDelay:33<br/>PS1.OnsetTime:3426257<br/>PS1.OnsetToOnsetTime:1033<br/>PS1.RT:0<br/>PS1.RTTime:0<br/>PS3.ACC:0(与PS1互斥）<br/>PS3.CRESP:k<br/>PS3.OnsetDelay:33<br/>PS3.OnsetTime:3426257<br/>PS3.OnsetToOnsetTime:1033<br/>PS3.RT:0<br/>PS3.RTTime:0<br/>PS2.ACC:1<br/>PS2.RESP:f<br/>PS2.RT:734<br/>（S3、S4):有PS3,PS4<br/>PS4.RT:0<br/>PS4.ACC：1<br/>PS4.RESP:f |      |
+|      |                                                              |      |
+|      |                                                              |      |
 
 
 

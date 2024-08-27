@@ -89,66 +89,41 @@
 
 ### 数据处理状态
 
-| 编号   | 处理结果                        | 备注                           |
-| ------ | ------------------------------- | ------------------------------ |
-| GB-001 | eeg预处理结束，eprime预处理结束 |                                |
-| GB-002 | eeg预处理结束，eprime预处理结束 |                                |
-| GB_003 | eeg预处理结束，eprime预处理结束 | 无5分钟静息数据                |
-| GB_004 | eeg预处理结束，eprime预处理结束 | 无5分钟静息数据                |
-| GB_005 | eeg预处理结束，eprime预处理结束 | ICA后的分段尚缺                |
-| GB_006 | ——，eprime预处理结束            | 数据不对，可能是其他人的数据。 |
-| GB_007 | eeg预处理结束，eprime预处理结束 |                                |
-| GB_008 | eeg预处理结束，eprime预处理结束 |                                |
-| GB_009 |                                 | 无数据                         |
-| GB_010 | eeg预处理结束，eprime预处理结束 |                                |
-| GB_011 | eeg预处理结束，eprime预处理结束 |                                |
-| GB_012 | eeg预处理结束，eprime预处理结束 |                                |
-| GB_013 | eeg预处理结束，eprime预处理结束 |                                |
-| GB_014 |                                 | 无数据                         |
-| GB_015 |                                 | 无数据                         |
-| GB_016 | eeg预处理结束，eprime预处理结束 |                                |
-| GB_017 |                                 | 无数据                         |
-| GB_018 | eeg预处理结束，eprime预处理结束 |                                |
-| GB_019 | eeg预处理结束，eprime预处理结束 |                                |
-| GB_020 | eeg预处理结束，eprime预处理结束 |                                |
-| GB_021 | eeg预处理结束，eprime预处理结束 |                                |
-| GB_022 | ，eprime预处理结束              | eeg计划处理中                  |
-| GB_023 |                                 |                                |
-| GB_024 | ，eprime预处理结束              |                                |
-| GB_025 | ，eprime预处理结束              |                                |
-| GB_026 | ，eprime预处理结束              |                                |
-| GB_027 | ，eprime预处理结束              |                                |
-| GB_028 |                                 |                                |
-| GB_029 | ，eprime预处理结束              |                                |
-| GB_030 |                                 |                                |
-| GB_030 | ，eprime预处理结束              |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
-|        |                                 |                                |
+| 是否可用 | 编号   | 处理结果                                                | 备注                                              |
+| -------- | ------ | ------------------------------------------------------- | ------------------------------------------------- |
+| Y        | GB-001 | eeg预处理结束，eprime预处理结束，eeg/eprime记录检查结束 |                                                   |
+| Y        | GB-002 | eeg预处理结束，eprime预处理结束，eeg/eprime记录检查结束 |                                                   |
+| Y        | GB_003 | eeg预处理结束，eprime预处理结束                         | 无5分钟静息数据                                   |
+| Y        | GB_004 | eeg预处理结束，eprime预处理结束                         | 无5分钟静息数据                                   |
+| Y        | GB_005 | eeg预处理结束，eprime预处理结束                         |                                                   |
+|          | GB_006 | ——，eprime预处理结束                                    | 数据不对，可能是其他人的数据。                    |
+| Y        | GB_007 | eeg预处理结束，eprime预处理结束                         |                                                   |
+| Y        | GB_008 | eeg预处理结束，eprime预处理结束                         |                                                   |
+|          | GB_009 |                                                         | 无数据                                            |
+| Y        | GB_010 | eeg预处理结束，eprime预处理结束                         |                                                   |
+| Y        | GB_011 | eeg预处理结束，eprime预处理结束                         |                                                   |
+| Y        | GB_012 | eeg预处理结束，eprime预处理结束                         |                                                   |
+| Y        | GB_013 | eeg预处理结束，eprime预处理结束                         |                                                   |
+|          | GB_014 |                                                         | 无数据                                            |
+|          | GB_015 |                                                         | 无数据                                            |
+| Y        | GB_016 | eeg预处理结束，eprime预处理结束                         |                                                   |
+|          | GB_017 |                                                         | 无数据                                            |
+| Y        | GB_018 | eeg预处理结束，eprime预处理结束                         |                                                   |
+| Y        | GB_019 | eeg预处理结束，eprime预处理结束                         |                                                   |
+| Y        | GB_020 | eeg预处理结束，eprime预处理结束                         |                                                   |
+| Y        | GB_021 | eeg预处理结束，eprime预处理结束                         |                                                   |
+|          | GB_022 | eeg预处理结束，eprime预处理结束，eeg/eprime记录检查结束 | eeg/eprime记录检查不匹配：2112vs2289              |
+|          | GB_023 |                                                         | 数据不全：没有eprime数据                          |
+|          | GB_024 | eeg预处理**失败**，eprime预处理结束                     | eeg计划处理中，只有后半段数据，前半段没有marker； |
+|          | GB_025 | ，eprime预处理结束                                      |                                                   |
+|          | GB_026 | ，eprime预处理结束                                      |                                                   |
+|          | GB_027 | ，eprime预处理结束                                      |                                                   |
+|          | GB_028 |                                                         |                                                   |
+|          | GB_029 | ，eprime预处理结束                                      |                                                   |
+|          | GB_030 |                                                         |                                                   |
+|          | GB_031 | ，eprime预处理结束                                      |                                                   |
+|          |        |                                                         |                                                   |
+
 
 ### 行为数据过程
 
@@ -158,6 +133,16 @@
 | 图片2文字 | Procedure[Block]:Pic2TextBF<br/>Running[Block]:  TestTaskBF<br/><br/>TestAddMark1.OffsetTime(OnsetDelay):455131(30)<br/>TestAddMark1.OnsetTime:454831<br/><br/>PicTrigger1.OffsetTime(OffsetDelay):455347(0)<br/>PicTrigger1.OnsetDelay(OnsetTime)：16(455147)<br/>TrPics: res/pics/positive/758.png<br/>TriggerPicsPosBF:29<br/><br/>TextBlank1.OffsetTime(OnsetDelay):455464(17)<br/>TextBlank1.OnsetTime:455364<br/><br/>FBTextSelect1.OnsetDelay(OnsetTime):33(455497)<br/>FBTextSelect1.RESP:d<br/>FBTextSelect1.RT:352<br/>TextSelect1:23<br/>TText:舒畅<br/><br/>FeedBack1.OnsetDelay(OnsetTime):32(455881)<br/>FeedBack1.RESP:d<br/>FeedBack1.RT:2352<br/>FeedBack1.RTTime:458233 |      |
 | 文字2图片 | Procedure[Block]:Text2PicBF<br/>Running[Block]:  TestTaskBF<br/><br/>TestAddMark1.OffsetTime:458897<br/>TestAddMark1.OnsetDelay:40<br/>TestAddMark1.OnsetTime:458597<br/><br/>TextTrigger1.OffsetTime:459114<br/>TextTrigger1.OnsetDelay:17<br/>TextTrigger1.OnsetTime:458914<br/>TriggerTextNegBF:16<br/>TrText:凶狠<br/><br/>TextBlank1.OffsetTime:459230<br/>TextBlank1.OnsetDelay:16<br/>TextBlank1.OnsetTime:459130<br/><br/>PicSelect1:79<br/>TPicSel:res/pics/positive/432.png<br/>FBSlide1.OffsetTime(OnsetDelay):460473(34)<br/>FBSlide1.OnsetTime:459264<br/>FBSlide1.RESP:d<br/>FBSlide1.RT:1209<br/>FBSlide1.RTTime:460473<br/><br/>FeedBack1.OffsetTime:461161<br/>FeedBack1.OnsetDelay:41<br/>FeedBack1.OnsetTime:460514<br/>FeedBack1.RESP:d<br/>FeedBack1.RT:647<br/>FeedBack1.RTTime:461161 |      |
 | 文字2文字 | Procedure[Block]:Text2TextBF<br/>Running[Block]:TestTaskBF<br/><br/>TestAddMark1.OffsetTime:468963<br/>TestAddMark1.OnsetDelay:25<br/>TestAddMark1.OnsetTime:468663<br/><br/>TextBlank1.OffsetTime:469296<br/>TextBlank1.OnsetDelay:16<br/>TextBlank1.OnsetTime:469196<br/><br/>TriggerTextPosBF:8<br/>TrText:活泼<br/>TextTrigger1.OffsetTime:469180<br/>TextTrigger1.OnsetDelay:17<br/>TextTrigger1.OnsetTime:468980<br/><br/>FBTextSelect1.OnsetDelay:34<br/>FBTextSelect1.OnsetTime:469330<br/>FBTextSelect1.RESP:d<br/>FBTextSelect1.RT:783<br/>TextSelect1:3<br/>TText:欢乐<br/><br/>FeedBack1.OffsetTime:470713<br/>FeedBack1.OnsetDelay:33<br/>FeedBack1.OnsetTime:470146<br/>FeedBack1.RESP:d<br/>FeedBack1.RT:567<br/>FeedBack1.RTTime:470713 |      |
+
+### 数据处理流程
+
+| 步骤                    | 简述                                                         | 备注 |
+| ----------------------- | ------------------------------------------------------------ | ---- |
+| EEG数据预处理           | 将EEG数据通过以下步骤：重采样、重参考、排除其他通道、高通、市电、低通滤波；ICA处理；分块（5分钟、前实验、后实验、冥想）；按事件切割；进一步切割（剔除多余的部分）；rebase；数据对齐；按事件叠加； |      |
+| eprime数据预处理        | 转换eprime数据为数据信息采集表                               |      |
+| eprime数据和eeg数据对齐 |                                                              |      |
+
+
 
 
 
@@ -219,69 +204,53 @@ s121,s122
 
 ### 数据处理状态
 
-| 编号    | 处理情况   | 备注       |
-| ------- | ---------- | ---------- |
-| gxz-001 | 预处理结束 |            |
-| gxz-002 | 预处理结束 |            |
-| gxz-003 | 预处理结束 |            |
-| gxz_004 | 预处理结束 |            |
-| gxz-005 | 预处理结束 |            |
-| gxz-006 | 预处理结束 |            |
-| gxz-007 | 预处理结束 |            |
-| gxz-008 | 预处理结束 |            |
-| gxz-009 |            | 无数据     |
-| gxz-010 | 预处理结束 |            |
-| gxz-011 | 预处理结束 |            |
-| gxz-012 | 预处理结束 |            |
-| gxz-013 |            | 计划处理中 |
-| gxz-014 |            |            |
-| gxz-015 |            |            |
-| gxz-016 |            |            |
-| gxz-017 |            |            |
-| gxz-018 |            |            |
-| gxz-019 |            |            |
-| gxz-020 |            |            |
-| gxz-021 |            |            |
-| gxz-022 |            |            |
-| gxz-023 |            |            |
-| gxz-024 |            |            |
-| gxz-025 |            |            |
-| gxz-026 |            |            |
-| gxz-027 |            |            |
-| gxz-028 |            |            |
-| gxz-029 |            |            |
-| gxz-030 |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
-|         |            |            |
+|      | 编号    | 处理情况                    | 备注       |
+| ---- | ------- | --------------------------- | ---------- |
+|      | gxz-001 | 预处理结束,eprime预处理结束 |            |
+|      | gxz-002 | 预处理结束,eprime预处理结束 |            |
+|      | gxz-003 | 预处理结束,eprime预处理结束 |            |
+|      | gxz_004 | 预处理结束,eprime预处理结束 |            |
+|      | gxz-005 | 预处理结束,eprime预处理结束 |            |
+|      | gxz-006 | 预处理结束,eprime预处理结束 |            |
+|      | gxz-007 | 预处理结束,eprime预处理结束 |            |
+|      | gxz-008 | 预处理结束,eprime预处理结束 |            |
+|      | gxz-009 |                             | 无数据     |
+|      | gxz-010 | 预处理结束,eprime预处理结束 |            |
+|      | gxz-011 | 预处理结束,eprime预处理结束 |            |
+|      | gxz-012 | 预处理结束,eprime预处理结束 |            |
+|      | gxz-013 |                             | 计划处理中 |
+|      | gxz-014 |                             |            |
+|      | gxz-015 |                             |            |
+|      | gxz-016 | ,eprime预处理结束           |            |
+|      | gxz-017 |                             |            |
+|      | gxz-018 | ,eprime预处理结束           |            |
+|      | gxz-019 | ,eprime预处理结束           |            |
+|      | gxz-020 | ,eprime预处理结束           |            |
+|      | gxz-021 | ,eprime预处理结束           |            |
+|      | gxz-022 | ,eprime预处理结束           |            |
+|      | gxz-023 | ,eprime预处理结束           |            |
+|      | gxz-024 | ,eprime预处理结束           |            |
+|      | gxz-025 | ,eprime预处理结束           |            |
+|      | gxz-026 | ,eprime预处理结束           |            |
+|      | gxz-027 | ,eprime预处理结束           |            |
+|      | gxz-028 | ,eprime预处理结束           |            |
+|      | gxz-029 | ,eprime预处理结束           |            |
+|      | gxz-030 | ,eprime预处理结束           |            |
+|      | gxz-031 | ,eprime预处理结束           |            |
+|      |         |                             |            |
+
 
 ### 行为数据过程
+
+(前半段)数据采集部分：S1（P2、P4&P5）、S2（P2、P4&P5）；
+
+(后半段)数据采集部分：S3（P2、P4&P5）、S4（P2、P4&P5）；
+
+
+
+开始：Blank1,Blank2,Blank3,Blank4;
+
+
 
 |      |                                                              |      |
 | ---- | ------------------------------------------------------------ | ---- |
@@ -404,3 +373,58 @@ s121,s122
 - **OnsetDelay**:
 	- 刺激呈现的 `OnsetDelay` 是 500 ms（从实验开始到刺激呈现的时间）。
 	- 被试反应的 `OnsetDelay` 是 300 ms（从刺激结束到被试做出反应的时间）。
+
+# 阶段任务
+
+## 1、EEG数据预处理
+
+### 1.1 Resample
+
+Resample to 500Hz的数据。
+
+### 1.2 Rereference By M1 and M2
+
+### 1.3  Exclude 
+
+### 1.4 Hipass
+
+### 1.5 Notch
+
+### 1.6 Lopass
+
+### 1.7 ICA
+
+### 1.8 Split
+
+#### 1.8.1 Split 5 mins
+
+#### 1.8.2 Split resting state
+
+#### 1.8.3 Split pre-meditation data
+
+#### 1.8.4 Split after-meditation data
+
+### 1.9 Extract sliced data for EEG
+
+#### 1.9.1 Extract pre-meditation events
+
+#### 1.9.2 Extract after-meditation events
+
+### 1.10 Shrink sliced data
+
+### 1.11 Rebase sliced data
+
+#### 1.12 Compose sliced events
+
+数据按照前实验、后实验，文字对文字、文字对图片、图片对图片、图片对文字的事件记录，累加平均。
+
+## 2、ePrime数据预处理
+
+## 2.1 将个人数据提取到同一个表中
+
+## 3、数据分析
+
+## 3.1 绘制个人的EEG通道数据
+
+## 3.2 绘制多人的同一EEG通道数据
+

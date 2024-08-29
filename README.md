@@ -8,6 +8,7 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 - Resting-Sate EEG [Resting-State](RestingEEG.md)
 - Event-related potential[ERP](ERP.md)
 - EEG events [Events](EEG-events.md)
+- EEG process methods[methods](EEG_Methods.md)
 
 
 

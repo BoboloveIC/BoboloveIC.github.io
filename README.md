@@ -9,6 +9,7 @@ Hello, there! I am Bobo! I really expected to write down something here. If you 
 - Event-related potential[ERP](ERP.md)
 - EEG events [Events](EEG-events.md)
 - EEG process methods [Methods](EEG_Methods.md)
+- Related articles [Articles](articles.md)
 
 
 

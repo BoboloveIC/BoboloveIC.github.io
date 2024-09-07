@@ -4,6 +4,8 @@
 
 以下是一些关于静息态EEG分析的重要文献示例及其一般步骤和结论概述。请注意，这些信息是基于过往的研究趋势给出的概括性描述，并非具体某篇文章的内容。
 
+
+
 ### 重要文献示例
 
 1. **"Resting-State EEG in Major Depression: An Update and Review of the Literature"**

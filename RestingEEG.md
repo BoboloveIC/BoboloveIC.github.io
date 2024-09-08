@@ -192,3 +192,5 @@ legend('Box Counts', 'Fitted Line');
 6. **估计分形维数**：根据功率谱斜率计算分形维数，并与实际计算的分形维数进行比较。
 
 通过上述步骤，可以分析EEG信号的复杂性和自相似性，并探讨分形维数与功率谱之间的关系。 
+
+https://blog.csdn.net/tomue/article/details/129323277?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-129323277-blog-129380459.235^v43^pc_blog_bottom_relevance_base2&spm=1001.2101.3001.4242.1&utm_relevant_index=3

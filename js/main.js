@@ -382,7 +382,7 @@
 
   // ============ Online Status Detection ============
   function initOnlineStatus() {
-    fetch('psy_online.json')
+    fetch('/psy_online.json')
       .then(function (r) { return r.json(); })
       .then(function (config) {
         var url = config.tunnel_url;

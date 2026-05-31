@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400">
+  <rect width="300" height="400" fill="#F5F0EB" rx="12"/>
+  <circle cx="150" cy="150" r="60" fill="#E8E4DF" stroke="#D4CFC8" stroke-width="2"/>
+  <path d="M150 210 C100 210, 60 240, 60 310 L60 340 L240 340 L240 310 C240 240, 200 210, 150 210 Z" fill="#E8E4DF" stroke="#D4CFC8" stroke-width="2"/>
+  <text x="150" y="370" text-anchor="middle" fill="#A09990" font-family="sans-serif" font-size="14">咨询师照片</text>
+</svg>

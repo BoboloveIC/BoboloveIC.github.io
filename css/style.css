@@ -1,0 +1,100 @@
+/* ============================================
+   管理后台入口按钮
+   ============================================ */
+.admin-entry {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 10000;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 2px 12px rgba(39, 174, 96, 0.35);
+  transition: opacity var(--transition-base), transform var(--transition-base);
+  animation: adminEntryIn 0.4s ease;
+}
+
+.admin-entry:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  color: #fff;
+}
+
+.admin-entry__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+  animation: adminPulse 2s ease-in-out infinite;
+}
+
+@keyframes adminEntryIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes adminPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+@media (max-width: 768px) {
+  .admin-entry {
+    top: auto;
+    bottom: 16px;
+    right: 16px;
+    padding: 8px 16px;
+    font-size: 14px;
+    box-shadow: 0 4px 16px rgba(39, 174, 96, 0.4);
+  }
+}
+
+/* ============================================
+   打印样式
+   ============================================ */
+@media print {
+  .header,
+  .footer,
+  .back-to-top,
+  .nav__toggle,
+  .nav__overlay,
+  .hero,
+  .cta-banner,
+  .form {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 12pt;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .section {
+    padding: 20px 0;
+    page-break-inside: avoid;
+  }
+}

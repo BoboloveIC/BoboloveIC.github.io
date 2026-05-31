@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Book a counseling appointment. Fill out the form or contact us directly via WeChat or phone. Free initial assessment.">
+  <meta name="keywords" content="counseling appointment, book therapy, contact counselor, online booking">
+  <meta property="og:title" content="Contact - Heart Post">
+  <meta property="og:description" content="Take the first step toward change. Book a free initial assessment.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <title>Contact - Heart Post</title>
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="../images/logo.svg" alt="Heart Post" class="header__logo-icon">
+        Heart Post
+      </a>
+      <div class="lang-switcher">
+        <a href="/contact.html" class="lang-switcher__link">中文</a>
+        <span class="lang-switcher__divider">|</span>
+        <span class="lang-switcher__link lang-switcher__link--active">EN</span>
+      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav__overlay" id="navOverlay"></div>
+      <nav class="nav__menu" id="navMenu">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li><a href="articles.html" class="nav__link">Articles</a></li>
+          <li><a href="contact.html" class="nav__link nav__cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">Contact & Booking</h1>
+      <p class="page-header__breadcrumb"><a href="index.html">Home</a> / Contact</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="fade-in">
+          <form class="form" id="contactForm" novalidate>
+            <input type="hidden" name="access_key" value="898cdbdc-7c5c-4468-9a06-522397f7f032">
+            <input type="hidden" name="subject" value="Heart Post - New Appointment Inquiry">
+            <input type="hidden" name="from_name" value="Heart Post Website Form">
+            <h2 class="form__title">Book an Appointment</h2>
+
+            <div class="form__group">
+              <label class="form__label form__label--required" for="contactName">Name</label>
+              <input type="text" id="contactName" name="name" class="form__input" placeholder="Your name">
+              <div class="form__error" id="contactNameError"></div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label form__label--required" for="contactPhone">Phone Number</label>
+              <input type="tel" id="contactPhone" name="phone" class="form__input" placeholder="Your phone number">
+              <div class="form__error" id="contactPhoneError"></div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="contactWechat">WeChat (Optional)</label>
+              <input type="text" id="contactWechat" name="wechat" class="form__input" placeholder="WeChat ID for easier contact">
+              <div class="form__error" id="contactWechatError"></div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label form__label--required" for="contactType">Type of Counseling</label>
+              <select id="contactType" name="type" class="form__select">
+                <option value="">Please select</option>
+                <option value="individual">Individual Counseling</option>
+                <option value="youth">Youth Counseling</option>
+                <option value="couples">Couples & Family Therapy</option>
+                <option value="online">Online Counseling</option>
+                <option value="other">Other / Not Sure</option>
+              </select>
+              <div class="form__error" id="contactTypeError"></div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label form__label--required" for="contactDesc">Brief Description</label>
+              <textarea id="contactDesc" name="description" class="form__textarea" placeholder="Please briefly describe what you'd like to discuss (if comfortable)"></textarea>
+              <div class="form__error" id="contactDescError"></div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="contactTime">Preferred Time (Optional)</label>
+              <input type="text" id="contactTime" name="preferred_time" class="form__input" placeholder="e.g., weekday evenings, weekend mornings">
+            </div>
+
+            <button type="submit" class="form__submit">Book Appointment</button>
+            <div class="form__success" id="formSuccess">
+              Your appointment has been submitted! I will contact you within 24 hours. Please keep your phone available.
+            </div>
+          </form>
+        </div>
+
+        <div>
+          <div class="contact-info__card fade-in">
+            <h3 class="contact-info__title">Contact Information</h3>
+            <div class="contact-info__item">
+              <div class="contact-info__icon">&#9742;</div>
+              <div>
+                <div style="font-weight:600;color:var(--color-text);">Phone</div>
+                <div>18981724850</div>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <div class="contact-info__icon">&#128172;</div>
+              <div>
+                <div style="font-weight:600;color:var(--color-text);">WeChat</div>
+                <div>soul_keeper_110</div>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <div class="contact-info__icon">&#9993;</div>
+              <div>
+                <div style="font-weight:600;color:var(--color-text);">Email</div>
+                <div>carl.ge2026@outlook.com</div>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <div class="contact-info__icon">&#128339;</div>
+              <div>
+                <div style="font-weight:600;color:var(--color-text);">Hours</div>
+                <div>Mon-Sat 9:00 - 20:00 (by appointment)</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info__card fade-in">
+            <h3 class="contact-info__title">Frequently Asked Questions</h3>
+            <div class="faq">
+              <div class="faq__item">
+                <button class="faq__question">
+                  What should I prepare for the first session?
+                  <span class="faq__arrow">&#9660;</span>
+                </button>
+                <div class="faq__answer">
+                  <p>No special preparation is needed. You may want to think about topics or concerns you'd like to discuss, but it's perfectly fine if you're not sure. The counselor will guide the initial conversation. Dress comfortably and arrive 5-10 minutes early to give yourself a relaxing transition.</p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <button class="faq__question">
+                  How long does counseling typically take?
+                  <span class="faq__arrow">&#9660;</span>
+                </button>
+                <div class="faq__answer">
+                  <p>A single session is usually 50 minutes (80 minutes for couples/family therapy). The overall duration varies: short-term counseling may be 8-12 sessions, medium-term about 20-30 sessions, and longer-term exploratory therapy may continue beyond that. Your counselor will discuss the expected timeline after the initial assessment.</p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <button class="faq__question">
+                  What's the difference between online and in-person therapy?
+                  <span class="faq__arrow">&#9660;</span>
+                </button>
+                <div class="faq__answer">
+                  <p>Online and in-person therapy are professionally equivalent — extensive research has confirmed the effectiveness of online counseling. The main differences: in-person sessions offer a more immersive space with richer non-verbal cues; online sessions are more flexible and convenient, eliminating commute time, ideal for those with busy schedules or in remote locations.</p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <button class="faq__question">
+                  How do I know if I need counseling?
+                  <span class="faq__arrow">&#9660;</span>
+                </button>
+                <div class="faq__answer">
+                  <p>If you've been experiencing emotional distress for more than two weeks that affects your daily life, work, or relationships — or if you want to understand yourself better and pursue personal growth — counseling may be helpful. Seeking counseling doesn't mean something is "wrong" with you; it shows you care about your mental health.</p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <button class="faq__question">
+                  What are the fees? Is it covered by insurance?
+                  <span class="faq__arrow">&#9660;</span>
+                </button>
+                <div class="faq__answer">
+                  <p>Please contact us directly by phone or WeChat for current fee information. The initial 30-minute assessment is free to help you determine if counseling is right for you. Currently, counseling services are not covered by medical insurance.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info__card fade-in">
+            <h3 class="contact-info__title">Important Information</h3>
+            <div class="notice-list">
+              <div class="notice-item">
+                <span class="notice-item__num">1</span>
+                <span>Counseling is voluntary — clients should have a genuine desire to seek help.</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">2</span>
+                <span>The therapeutic relationship is professional. Counselors maintain clear professional boundaries.</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">3</span>
+                <span>All session content is strictly confidential, except when required by law (risk of self-harm, harm to others, etc.).</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">4</span>
+                <span>Appointments require advance booking. Please cancel at least 24 hours in advance. No-shows may affect future bookings.</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">5</span>
+                <span>Counseling is a gradual process requiring active participation and patience. Change doesn't happen overnight.</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">6</span>
+                <span>Minors require a guardian to accompany them and sign an informed consent form.</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">7</span>
+                <span>If your needs exceed the counselor's scope of practice, a referral will be responsibly provided.</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">8</span>
+                <span>Sessions are billed per appointment. Uncanceled no-shows will be charged the standard fee.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="emergency-box fade-in">
+            <div class="emergency-box__title">Emergency Notice</div>
+            <p class="emergency-box__text">
+              This service provides scheduled counseling and does not offer crisis intervention. If you are at immediate risk of self-harm or in a mental health crisis, please call:
+              <br><strong>National Suicide Prevention Lifeline: 988</strong>
+              <br>Or go to the nearest hospital emergency department.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__brand-name">Heart Post</div>
+          <p class="footer__brand-desc">Professional psychological counseling services. Everyone deserves to be truly heard.</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="about.html" class="footer__link">About</a>
+          <a href="services.html" class="footer__link">Services</a>
+          <a href="articles.html" class="footer__link">Articles</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__contact-item">&#9742; Phone: 18981724850</div>
+          <div class="footer__contact-item">&#9993; Email: carl.ge2026@outlook.com</div>
+          <div class="footer__contact-item">&#128172; WeChat: soul_keeper_110</div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Heart Post Psychological Counseling. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+  <script src="../js/main.js"></script>
+</body>
+</html>

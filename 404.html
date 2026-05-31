@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="页面未找到 - 心驿心理">
+  <title>404 - 心驿心理</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .not-found__links {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.svg" alt="心驿心理" class="header__logo-icon">
+        心驿心理
+      </a>
+      <div class="lang-switcher">
+        <span class="lang-switcher__link lang-switcher__link--active">中文</span>
+        <span class="lang-switcher__divider">|</span>
+        <a href="/en/404.html" class="lang-switcher__link">EN</a>
+      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav__overlay" id="navOverlay"></div>
+      <nav class="nav__menu" id="navMenu">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">首页</a></li>
+          <li><a href="about.html" class="nav__link">关于我</a></li>
+          <li><a href="services.html" class="nav__link">咨询服务</a></li>
+          <li><a href="articles.html" class="nav__link">心理前沿</a></li>
+          <li><a href="contact.html" class="nav__link nav__cta">预约咨询</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="not-found">
+    <div class="container">
+      <div class="not-found__code">404</div>
+      <h1 class="not-found__title">页面未找到</h1>
+      <p class="not-found__text">你寻找的页面可能已被移动、删除，或者地址输入有误。</p>
+      <p class="not-found__text" style="color:var(--color-text-muted);margin-bottom:32px;">但无论你身处怎样的困惑中，这里永远有一扇为你敞开的门。</p>
+      <div class="not-found__links">
+        <a href="index.html" class="btn btn--primary">返回首页</a>
+        <a href="contact.html" class="btn btn--secondary">联系咨询</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

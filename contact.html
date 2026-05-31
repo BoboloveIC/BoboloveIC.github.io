@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="预约心理咨询服务。填写表单或通过微信、电话直接联系。首次咨询免费评估。">
+  <meta name="keywords" content="心理咨询预约,心理医生预约,在线咨询预约,心理咨询联系">
+  <meta property="og:title" content="联系预约 - 心驿心理">
+  <meta property="og:description" content="迈出改变的第一步，预约一次免费的初次评估。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <title>联系预约 - 心驿心理</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.svg" alt="心驿心理" class="header__logo-icon">
+        心驿心理
+      </a>
+      <div class="lang-switcher">
+        <span class="lang-switcher__link lang-switcher__link--active">中文</span>
+        <span class="lang-switcher__divider">|</span>
+        <a href="/en/contact.html" class="lang-switcher__link">EN</a>
+      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav__overlay" id="navOverlay"></div>
+      <nav class="nav__menu" id="navMenu">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">首页</a></li>
+          <li><a href="about.html" class="nav__link">关于我</a></li>
+          <li><a href="services.html" class="nav__link">咨询服务</a></li>
+          <li><a href="articles.html" class="nav__link">心理前沿</a></li>
+          <li><a href="contact.html" class="nav__link nav__cta">预约咨询</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">联系预约</h1>
+      <p class="page-header__breadcrumb"><a href="index.html">首页</a> / 联系预约</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Form -->
+        <div class="fade-in">
+          <form class="form" id="contactForm" novalidate>
+            <input type="hidden" name="access_key" value="898cdbdc-7c5c-4468-9a06-522397f7f032">
+            <input type="hidden" name="subject" value="心驿心理 - 新预约咨询">
+            <input type="hidden" name="from_name" value="心驿心理官网表单">
+            <h2 class="form__title">预约咨询</h2>
+
+            <div class="form__group">
+              <label class="form__label form__label--required" for="contactName">姓名</label>
+              <input type="text" id="contactName" name="name" class="form__input" placeholder="请输入您的姓名">
+              <div class="form__error" id="contactNameError"></div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label form__label--required" for="contactPhone">联系电话</label>
+              <input type="tel" id="contactPhone" name="phone" class="form__input" placeholder="请输入您的手机号码">
+              <div class="form__error" id="contactPhoneError"></div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="contactWechat">微信号（选填）</label>
+              <input type="text" id="contactWechat" name="wechat" class="form__input" placeholder="方便我们通过微信联系您">
+              <div class="form__error" id="contactWechatError"></div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label form__label--required" for="contactType">咨询类型</label>
+              <select id="contactType" name="type" class="form__select">
+                <option value="">请选择咨询类型</option>
+                <option value="个人咨询">个人心理咨询</option>
+                <option value="青少年咨询">青少年心理辅导</option>
+                <option value="伴侣家庭咨询">伴侣与家庭咨询</option>
+                <option value="线上咨询">线上远程咨询</option>
+                <option value="其他">其他 / 不确定</option>
+              </select>
+              <div class="form__error" id="contactTypeError"></div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label form__label--required" for="contactDesc">简要描述</label>
+              <textarea id="contactDesc" name="description" class="form__textarea" placeholder="请简要描述您希望咨询的问题或困扰（如方便的话）"></textarea>
+              <div class="form__error" id="contactDescError"></div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="contactTime">期望咨询时间（选填）</label>
+              <input type="text" id="contactTime" name="preferred_time" class="form__input" placeholder="如：工作日晚上、周末上午等">
+            </div>
+
+            <button type="submit" class="form__submit">提交预约</button>
+            <div class="form__success" id="formSuccess">
+              预约提交成功！我会在 24 小时内与您联系，请保持手机畅通。
+            </div>
+          </form>
+        </div>
+
+        <!-- Contact Info + FAQ + Notice -->
+        <div>
+          <!-- Contact Card -->
+          <div class="contact-info__card fade-in">
+            <h3 class="contact-info__title">联系方式</h3>
+            <div class="contact-info__item">
+              <div class="contact-info__icon">&#9742;</div>
+              <div>
+                <div style="font-weight:600;color:var(--color-text);">电话</div>
+                <div>18981724850</div>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <div class="contact-info__icon">&#128172;</div>
+              <div>
+                <div style="font-weight:600;color:var(--color-text);">微信</div>
+                <div>soul_keeper_110</div>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <div class="contact-info__icon">&#9993;</div>
+              <div>
+                <div style="font-weight:600;color:var(--color-text);">邮箱</div>
+                <div>carl.ge2026@outlook.com</div>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <div class="contact-info__icon">&#128339;</div>
+              <div>
+                <div style="font-weight:600;color:var(--color-text);">工作时间</div>
+                <div>周一至周六 9:00 - 20:00（预约制）</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ -->
+          <div class="contact-info__card fade-in">
+            <h3 class="contact-info__title">常见问题</h3>
+            <div class="faq">
+              <div class="faq__item">
+                <button class="faq__question">
+                  第一次咨询需要准备什么？
+                  <span class="faq__arrow">&#9660;</span>
+                </button>
+                <div class="faq__answer">
+                  <p>第一次咨询前不需要特别准备。你可以提前想一想希望讨论的话题或困扰，但即使不清楚也无妨。咨询师会在初次会谈中引导你表达。建议穿着舒适、提前5-10分钟到达，给自己一个放松过渡的时间。</p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <button class="faq__question">
+                  咨询一般需要多长时间？
+                  <span class="faq__arrow">&#9660;</span>
+                </button>
+                <div class="faq__answer">
+                  <p>单次咨询通常为50分钟（伴侣/家庭咨询为80分钟）。咨询的整体时长因人而异：短期咨询可能8-12次，中期咨询约20-30次，长期探索性咨询可能持续更久。咨询师会在初访评估后与你讨论预期的时间框架。</p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <button class="faq__question">
+                  线上线下咨询有什么区别？
+                  <span class="faq__arrow">&#9660;</span>
+                </button>
+                <div class="faq__answer">
+                  <p>线上咨询与线下咨询在专业质量上没有本质区别，大量研究已证实线上咨询的有效性。主要区别在于：线下咨询提供了更沉浸的空间体验，非语言信息更丰富；线上咨询则更灵活便捷，免去通勤，适合异地或时间紧张的情况。</p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <button class="faq__question">
+                  如何判断自己是否需要心理咨询？
+                  <span class="faq__arrow">&#9660;</span>
+                </button>
+                <div class="faq__answer">
+                  <p>如果你感到情绪困扰持续两周以上，影响了日常生活、工作或人际关系；或者你希望更深入地了解自己、实现个人成长，都可以考虑心理咨询。寻求心理咨询并不意味着你"有病"，而是你对自己心理健康负责的表现。</p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <button class="faq__question">
+                  咨询费用是多少？可以医保吗？
+                  <span class="faq__arrow">&#9660;</span>
+                </button>
+                <div class="faq__answer">
+                  <p>具体费用请通过电话或微信直接咨询确认。目前心理咨询服务尚未纳入国家医保报销范围，需自费承担。首次30分钟的评估访谈为免费，帮助你了解咨询是否适合自己。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visitor Notice -->
+          <div class="contact-info__card fade-in">
+            <h3 class="contact-info__title">来访者须知</h3>
+            <div class="notice-list">
+              <div class="notice-item">
+                <span class="notice-item__num">1</span>
+                <span>心理咨询遵循自愿原则，来访者需有主动求助意愿。</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">2</span>
+                <span>咨询关系是专业的工作关系，咨询师与来访者保持专业边界。</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">3</span>
+                <span>咨询内容严格保密，除涉及自伤、伤人风险等法律规定的例外情况外，不会向任何第三方透露。</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">4</span>
+                <span>咨询需提前预约，请至少提前24小时预约或取消。无故缺席将影响后续预约。</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">5</span>
+                <span>咨询是一个渐进的过程，需要来访者的积极参与和耐心。改变不会一夜发生。</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">6</span>
+                <span>未成年人咨询需由监护人陪同并签署知情同意书。</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">7</span>
+                <span>如咨询师评估来访者的问题超出自身专业范围，将负责任地提供转介建议。</span>
+              </div>
+              <div class="notice-item">
+                <span class="notice-item__num">8</span>
+                <span>咨询费用按次结算，未提前取消的缺席将按正常标准收费。</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Emergency -->
+          <div class="emergency-box fade-in">
+            <div class="emergency-box__title">紧急情况提示</div>
+            <p class="emergency-box__text">
+              本服务为预约制心理咨询，不提供紧急危机干预。如果你正处于严重的自伤、自杀风险或精神危机中，请立即拨打以下电话：
+              <br><strong>全国心理援助热线：400-161-9995</strong>
+              <br><strong>生命热线：400-821-1215</strong>
+              <br>或前往最近医院的精神科/心理科急诊。
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <div class="footer__brand-name">心驿心理</div>
+          <p class="footer__brand-desc">专业心理咨询服务，用专业与温暖陪伴你走过人生的每一个转折。</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">快速导航</h4>
+          <a href="index.html" class="footer__link">首页</a>
+          <a href="about.html" class="footer__link">关于咨询师</a>
+          <a href="services.html" class="footer__link">咨询服务</a>
+          <a href="articles.html" class="footer__link">心理前沿</a>
+          <a href="contact.html" class="footer__link">联系预约</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">联系方式</h4>
+          <div class="footer__contact-item">&#9742; 电话：18981724850</div>
+          <div class="footer__contact-item">&#9993; 邮箱：carl.ge2026@outlook.com</div>
+          <div class="footer__contact-item">&#128172; 微信：soul_keeper_110</div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 心驿心理. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="回到顶部">&#8593;</button>
+  <script src="js/main.js"></script>
+</body>
+</html>
